@@ -1,0 +1,4 @@
+1. Observable and Observer is connected by Subscribe. onNext is the event subscribed by Observer and called by Observable
+2. Subscriber is an abstract class extended Observer
+3. CountDown Latch
+4. BlockingObservable
