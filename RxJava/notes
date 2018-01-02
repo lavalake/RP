@@ -2,3 +2,7 @@
 2. Subscriber is an abstract class extended Observer
 3. CountDown Latch
 4. BlockingObservable
+5. Scheduler
+  a. Computation: this use fixed number of thread pool. the number is the CPU number
+  b. IO: this use infinite number of thread pool. Will create new thread when needed.
+  c. mainThread: Android spesific
