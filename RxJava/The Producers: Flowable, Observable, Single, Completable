@@ -1,1 +1,18 @@
 http://blog.jimbaca.com/essential-rxjava-guide-for-android-developers/#chapter6
+RxJava Version 2
+
+Name	Units of Data Produced
+Observable	Multiple or None
+Flowable	Multiple or None
+Single	One
+Maybe	One or None
+Completable	None
+
+
+Backpressure
+Backpressure is when an Operation or Subscriber cannot process data fast enough, 
+causing other work further up the Rx chain to backup.
+If you are making a one off web request then you are only handling one item so an Observable would work. 
+If you are doing UI work like processing UI events then you likely need to keep up to date because you don’t
+want to process events late and make the app appear sluggish. In those cases you likely want to have a sampling or
+debouncing strategy.
