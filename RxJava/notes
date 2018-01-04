@@ -6,3 +6,7 @@
   a. Computation: this use fixed number of thread pool. the number is the CPU number
   b. IO: this use infinite number of thread pool. Will create new thread when needed.
   c. mainThread: Android spesific
+6. subject
+7. flowable
+8. publisher
+9. debounce
